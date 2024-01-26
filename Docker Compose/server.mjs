@@ -8,7 +8,7 @@ const app = express();
 let mongoClient = MongoClient;
 const DB_USER = process.env.MONGO_DB_USERNAME;
 const DB_PASS = process.env.MONGO_DB_PWD;
-const PORT = 5000;
+const PORT = 9000;
 
 app.use(bodyParser.json());
 app.use(
